@@ -26,10 +26,12 @@ Polecenia sterują liczeniem kolejnych generacji. Określają też fragment plan
 Program jest parametryzowany dwiema dodatnimi liczbami całkowitymi:
 - `WIERSZE` to liczba wierszy okna;
 - `KOLUMNY` to liczba kolumn okna.
+  
 Wartości tych parametrów są określone za pomocą stałych symbolicznych, które można zdefiniować opcją `-D` kompilatora.
 W kodzie programu są podane wartości domyślne:
 - `WIERSZE` ma wartość `22`;
 - `KOLUMNY` ma wartość `80`.
+  
 Pozycja okna na planszy jest określona przez pozycję jego lewego górnego rogu. Jeśli lewy górny róg okna jest w wierszu `w` i kolumnie `k`, to okno obejmuje komórki, które mają numer wiersza od `w` do `w + WIERSZE - 1` i numer kolumny od `k` do `k + KOLUMNY - 1`.
 
 Początkowo lewy górny róg okna jest w wierszu numer `1` i kolumnie numer `1`.
